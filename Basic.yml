@@ -4,4 +4,4 @@
     - debug:
         msg: "hello prince"
     - debug:
-        msg: "{{ ansible_facts }}"
+        msg: "currently running on this host: {{ inventory_hostname }}"

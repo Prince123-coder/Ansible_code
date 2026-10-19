@@ -3,3 +3,5 @@
   tasks:
     - debug:
         msg: "hello prince"
+    - debug:
+        msg: "{{ ansible_fact }}"

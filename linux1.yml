@@ -1,1 +1,16 @@
+---
+
+- name: "this is the linux code automation written in ansible"
+  hosts: all
+  vars:
+    - fname: "prince"
+    - path: "/home/ansible/"
+  tasks:
+    - name: "print the fname"
+      ansible.builtin.debug:
+        msg: "{{ fname }}"
+    - name: "create a file"
+      ansible.builtin.copy:
+        content: "hello prince misha "
+        dest: "{{ path }}"
 

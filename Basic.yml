@@ -4,4 +4,4 @@
     - debug:
         msg: "hello prince"
     - debug:
-        msg: "{{ ansible_fact }}"
+        msg: "{{ ansible_facts }}"

@@ -4,7 +4,7 @@
   hosts: all
   vars:
     fname: "prince"
-    path: "/home/ansible/"
+    path: "/home/ansible/test1.txt"
   tasks:
     - name: "print the fname"
       ansible.builtin.debug:
